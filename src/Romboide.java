@@ -1,13 +1,13 @@
 
-public class Rectangulo implements FiguraGeometrica{
+public class Romboide implements FiguraGeometrica {
 	private String nombre;
 	private double base;
 	private double altura;
-	public Rectangulo(String nombre, double base, double altura) {
+	public Romboide(String nombre, double base, double altura) {
 		this.nombre = nombre;
 		this.base = base;
 		this.altura = altura;
-	}//constructor 
+	}//constructor
 	public double calcularArea() {
 		return (base*altura);
 	}
@@ -34,8 +34,10 @@ public class Rectangulo implements FiguraGeometrica{
 	}
 	@Override
 	public String toString() {
-		return "Rectangulo [nombre=" + nombre + ", base=" + base + ", altura=" + altura + "]";
+		return "Romboide [nombre=" + nombre + ", base=" + base + ", altura=" + altura + "]";
 	}
 	
 	
+	
+
 }

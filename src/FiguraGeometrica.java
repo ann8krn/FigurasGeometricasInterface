@@ -1,5 +1,7 @@
+
 public interface FiguraGeometrica {
 	public double calcularArea();
 	public double calcularPerimetro();
-	public String getName();
-}// interface FiguraGeometrica
+	public String getNombre();
+	public String toString();	
+}//interface FigurasGeometricas
